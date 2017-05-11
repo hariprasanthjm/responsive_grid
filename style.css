@@ -1,0 +1,135 @@
+@font-face {
+    font-family: Segeoui;
+    src: url(../segoeui.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: Segeoui;
+    background-color: #dddddd;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 0 0 8px ;
+    padding: 0;
+}
+
+.topContainer {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.container {
+    margin: 0 auto;
+    font-size: 15px;
+    max-width: 968px;
+    padding: 30px 0;
+}
+
+.clear {
+    display: block;
+    clear: both;
+}
+
+.clear:after {
+    display: block;
+    visibility: hidden;
+    height: 0;
+    font-size: 0;
+    content: "";
+    clear: both;
+}
+
+div.card {
+    width: 100%;
+    margin-top:20px;
+}
+div.card:first-child {
+    margin-top: 0;
+}
+
+.card div {
+    color: #ffffff;
+    background: #203764;
+}
+
+.oneHalf,.oneThird,.twoThird,.oneFourth,.twoFourth,.threeFourth,.oneFifth,.twoFifth,.threeFifth,.fourFifth,.oneSixth,.twoSixth,.threeSixth,.fourSixth,.fiveSixth{
+    float: left;
+    display: inline;
+    margin: 0 0 0 5%;
+}
+
+.oneHalf ,.twoFourth{
+    width: 47.5%;
+}
+.oneThird{
+    width:30%;
+}
+.twoThird{
+    width: 65%;
+}
+.oneFourth{
+    width:21.25%
+}
+.twoFourth{
+    width: 47.5%;
+}
+.threeFourth{
+    width:73.75%;
+}
+.oneFifth{
+    width: 16%;
+}
+.twoFifth{
+    width: 37%;
+}
+.threeFifth{
+    width: 58%;
+}
+.fourFifth{
+    width: 79%;
+}
+.oneSixth{
+   width: 12.50%; 
+}
+.twoSixth{
+    width: 30%;
+}
+.threeSixth{
+    width: 47.5%;
+}
+.fourSixth{
+    width: 65%
+}
+.fiveSixth{
+    width: 82.5%
+}
+.first {
+    margin-left: 0;
+    clear: left;
+}
+@media screen and (max-width: 768px) {
+    body {
+        background-color: #ffffff;
+    }
+    .container{
+           max-width: none;
+            width: 100%;
+    }
+    .card div {
+        background: #cccccc;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1280px) {
+
+    body {
+        background-color: #fe9600;
+    }
+}
